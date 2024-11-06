@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+main {
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 20px 50px;
+}
+
+.about {
+    background-color: lightgray;
+    padding: 20px 50px;
+}
+
+.articles {
+    background-color: lightgrey;
+    padding: 20px 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.img-about {
+    display: block;
+    margin: 0 auto;
+    border: 5px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+.wiki {
+    background: linear-gradient(to bottom right, #7700ff, #fa6fff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7),
+        inset 0 0 20px rgba(255, 255, 255, 0.7);
+}
